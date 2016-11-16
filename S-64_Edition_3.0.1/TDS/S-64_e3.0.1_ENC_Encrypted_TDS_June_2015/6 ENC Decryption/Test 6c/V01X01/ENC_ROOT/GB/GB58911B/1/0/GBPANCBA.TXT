@@ -1,0 +1,9 @@
+BEACHING AREA
+
+This area is safe for beaching vessels in emergencies.
+
+The definition of vessel size is as follows:
+
+Small  - Up to 91·44 metres (300 feet) - 5·49 metres (18 feet) draught.
+Medium - Up to 152·40 metres (500 feet) - 9·14 metres (30 feet) draught.
+Large  - Over 152·40 metres (500 feet) - 9.14 metres (30 feet) draught or over.

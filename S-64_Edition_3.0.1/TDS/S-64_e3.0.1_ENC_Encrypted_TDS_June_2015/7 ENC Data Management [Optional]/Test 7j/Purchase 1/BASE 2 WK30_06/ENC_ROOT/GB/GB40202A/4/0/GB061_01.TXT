@@ -1,0 +1,5 @@
+AREA OF SIMPLIFIED OR MINIMAL DEPICTION
+
+Most features are omitted in this area, including bathymetry. The minimal 
+depiction of detail in this area does not support safe navigation.
+

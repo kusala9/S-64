@@ -1,0 +1,5 @@
+GBWK48_07   20071120BASE      M01X01
+M1,'UKHO BASE MEDIA 1 of 1 dated 20 NOV 2007','Overview, General and Coastal',
+M1;B1,20071120,'Base Exchange Set 1','Overview Cells',,
+M1;B2,20071120,'Base Exchange Set 2','General Cells',,
+M1;B3,20071120,'Base Exchange Set 3','Coastal Cells',,

@@ -1,0 +1,5 @@
+GBWK23_07   20070607BASE      M02X02
+M2,'UKHO BASE MEDIA 2 dated 07 JUNE 2007','Test Base Cell Install',
+M2;B4,20070607,'Base Exchange Set 4','Approaches Cells',,
+M2;B5,20070607,'Base Exchange Set 5','Harbour Cells',,
+M2;B6,20070607,'Base Exchange Set 6','Berthing Cells',,

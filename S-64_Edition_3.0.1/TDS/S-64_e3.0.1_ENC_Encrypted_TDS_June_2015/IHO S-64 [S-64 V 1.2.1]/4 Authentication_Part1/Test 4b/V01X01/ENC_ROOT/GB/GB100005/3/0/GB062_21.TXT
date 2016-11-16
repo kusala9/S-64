@@ -1,0 +1,10 @@
+WRECKS
+
+1.  All wrecks are omitted within the 30 metre line and in depths greater than
+200 metres in this area.
+
+2(a).  Elsewhere, all wrecks with a least or safe clearance depth considered
+to be greater than 18 metres are shown as non-dangerous.
+
+2(b).  However, where the least or clearance depth over a wreck is between 18
+and 30 metres and is known, the depth will be given.

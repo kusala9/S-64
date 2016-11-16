@@ -1,0 +1,4 @@
+WRECKS
+
+All wrecks have been omitted in coastal areas to the 30 metre depth contour or
+to a line 30 miles offshore, whichever lies nearer the coast.

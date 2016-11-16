@@ -1,0 +1,5 @@
+WRECKS AND WELLHEADS
+
+Wellheads are omitted from this area if they are within 5 miles of a charted
+installation. Wrecks and wellheads inshore of the 30 metre depth contour are
+omitted, unless they are more than 30 miles from the coast.

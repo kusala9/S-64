@@ -1,0 +1,5 @@
+GBWK19_07   20070510BASE      M01X02
+M1,'UKHO BASE MEDIA 1 dated 10 MAY 2007','Test Base Cell Install',
+M1;B1,20070510,'Base Exchange Set 1','Overview Cells',,
+M1;B2,20070510,'Base Exchange Set 2','General Cells',,
+M1;B3,20070510,'Base Exchange Set 3','Coastal Cells',,

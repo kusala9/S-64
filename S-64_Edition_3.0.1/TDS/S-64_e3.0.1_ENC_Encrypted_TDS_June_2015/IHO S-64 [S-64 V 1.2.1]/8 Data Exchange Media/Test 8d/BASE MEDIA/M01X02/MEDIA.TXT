@@ -1,0 +1,5 @@
+GBWK40_07   20071004BASE      M01X02
+M1,'UKHO BASE MEDIA 1 dated 04 October 2007','Re-issued Base Cell Install',
+M1;B1,20071004,'Base Exchange Set 1','Overview Cells',,
+M1;B2,20070510,'Base Exchange Set 2','General Cells',,
+M1;B3,20070510,'Base Exchange Set 3','Coastal Cells',,

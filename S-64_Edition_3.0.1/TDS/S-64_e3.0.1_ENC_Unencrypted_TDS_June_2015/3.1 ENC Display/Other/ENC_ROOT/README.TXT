@@ -1,0 +1,1 @@
+This is an example README.TXT file created by CARIS S-57 Composer.  You can replace this with your own text.

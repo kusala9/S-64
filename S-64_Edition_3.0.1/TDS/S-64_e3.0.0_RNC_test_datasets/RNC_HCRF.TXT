@@ -1,0 +1,988 @@
+RNC TEST DATA SET - HCRF FORMAT
+===============================
+
+
+THE FOLLOWING SECTION MUST BE READ BEFORE PROCEEDING WITH TYPE-APPROVING:
+
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                          +
+ + CONDITIONS OF USE                                                        +
+ + =================                                                        +
+ +                                                                          +
+ + THE UNITED KINGDOM HYDROGRAPHIC OFFICE (UKHO) MAKES THE ACCOMPANYING     +
+ + RASTER NAVIGATIONAL CHART TEST DATA SET AND DOCUMENTATION EXPLAINING     +
+ + ITS USE (THE MATERIAL) AVAILABLE TO THE RECIPIENT SOLELY FOR THE PURPOSE +
+ + OF TYPE-APPROVING ELECTRONIC CHART DISPLAY AND INFORMATION SYSTEMS       +
+ + (ECDIS) OPERATING IN RASTER CHART DISPLAY SYSTEM MODE. THE MATERIAL IS   +
+ + SUPPLIED UNDER THE CONDITIONS SHOWN BELOW. IF THE RECIPIENT DOES NOT     +
+ + AGREE TO BE BOUND BY THESE CONDITIONS THEN THE MATERIAL SHOULD NOT BE    +
+ + USED AND IT SHOULD BE DESTROYED.                                         +
+ +                                                                          +
+ + CONDITIONS OF RELEASE                                                    +
+ + =====================                                                    +
+ +                                                                          +
+ + THE MATERIAL SUPPLIED IS PROTECTED BY CROWN COPYRIGHT. NO PART OF THE    +
+ + SUPPLIED MATERIAL MAY BE REPRODUCED, STORED IN A RETRIEVAL SYSTEM OR     +
+ + TRANSMITTED IN ANY FORM OR BY ANY MEANS, ELECTRONIC, MECHANICAL,         +
+ + PHOTOCOPYING OR OTHERWISE EXCEPT AS REQUIRED TO FULFIL THE PURPOSE       +
+ + DESCRIBED ABOVE.                                                         +
+ +                                                                          +
+ + THE MATERIAL IS NOT TO BE USED FOR NAVIGATION.                           +
+ +                                                                          +
+ + WHEN THE MATERIAL IS NO LONGER REQUIRED TO FULFIL THE PURPOSE, IT AND    +
+ + ANY WORKING COPIES, ARE TO BE DESTROYED.                                 +
+ +                                                                          +
+ + DISCLAIMER                                                               +
+ + ==========                                                               +
+ +                                                                          +
+ + WHILST THE UKHO HAS USED ITS BEST ENDEAVOURS TO ENSURE THAT THE MATERIAL +
+ + IS SUITABLE FOR TYPE APPROVAL PURPOSES, IT OFFERS NO WARRENTY GUARANTEE  +
+ + OR OTHER ASSURANCES TO THE EFFECT THAT IT WILL MEET THE REQUIREMENTS.THE +
+ + UKHO WILL ACCEPT, TO THE EXTENT THAT ENGLISH LAW PERMITS, NO LIABILITY   +
+ + FOR ANY DAMAGE OR LOSS OF ANY NATURE ARISING FROM ITS USE. THE MATERIAL  +
+ + SUPPLIED IS USED ENTIRELY AT THE RECIPIENT'S OWN RISK.                   +
+ +                                                                          +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +                                                                          +
+ + DISPLAYING AND PRINTING THIS DOCUMENT                                    +
+ + =====================================                                    +
+ +                                                                          +
+ + To display this Readme.file Wordwrap should be switched ON. The Notepad  +
+ + or Wordpad windows should be enlarged to an appropriate size in order to +
+ + display some of the formatted parts of this document, e.g. tables, in    +
+ + the manner they were intended to be viewed.                              +
+ +                                                                          +
+ + This file was written and formatted as an A4 (portrait) document using   +
+ + the font Courier, Regular, 10Pt. Should users of this document require   +
+ + a printed copy, best results will be obtained with this size and font    +
+ + and Word Wrap switched OFF. Also, in the 'File' menu go into 'Page Setup'+
+ + and make sure that the 'Header' field is blank.                          +
+ +                                                                          +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+THE RNC (HCRF) TEST DATA SET
+============================
+
+This Test Data Set has been produced for use when type approving ECDIS operating in RCDS mode (using data encoded in the HCRF Version 2.00 format) as specified in IEC 61174 Edition 3, Annex H.
+
+The data consists of a set of Raster Navigational Charts (RNCs) from the United Kingdom Hydrographic Office's (UKHO) Admiralty Raster Chart Service (ARCS). The data may be used when type approving ECDIS systems operating in RCDS mode using either ARCS data or data from the Royal Australian Navy Hydrographic Service's Seafarer service, since both of these services use the same data format and encryption mechanism.
+
+Because ARCS and Seafarer only use encrypted data within their services, the RNC data supplied with this file are also encrypted in a way that is compatible with both the ARCS and Seafarer services.
+
+For ease of distribution, the test data is contained on a single CD. However, to make the data conform to the HCRF specification, it must be split up into separate CDs before use.  A total of ten (10) CDs are needed to hold the entire data set.  Details for creating these CDs are provided below.
+
+
+TO MAKE INDIVIDUAL TEST DATA CDs
+================================
+
+The CD contains eleven (11) directories.  Ten (10) of these directories contain data that should be copied to individual CDs, while the eleventh directory contains a sample set of charts permits. The directories that contain the data to be copied to individual CDs are labelled as follows:
+
+  |-----------|------------------|---------------|
+  | Directory | Issue Date       |Volume ID of CD|
+  | ----------|------------------|---------------|
+  | Rc1_old   | 20 July 2000     |    RC1        |
+  | Rc1_new   | 08 February 2000 |    RC1        |
+  | Rc3       | 22 June 2000     |    RC3        |
+  | Rc9       | 23 November 2000 |    RC9        |
+  | Rc11      | 08 July 1999     |    RC11       |
+  | Wk33_00   | 17 August 2000   |    Wk33_00    |
+  | Wk49_00   | 07 December 2000 |    Wk49_00    |
+  | Wk10_01   | 08 March 2001    |    Wk10_01    |
+  | Rc1_cor   | 20 July 2000     |    RC1        |
+  | Wk33_cor  | 17 August 2000   |    Wk33_00    |
+  |-----------|------------------|---------------|
+
+Note: The Rc1_cor and Wk33_cor directories are copies of the Rc1_old and Wk33_00 directories but with some of the data corrupted.
+
+When copying these directories to individual CDs, copy the entire contents of the directory so that the README.CDV file (located immediately below the directory) is held in the new CD's Root directory.
+
+The individual CDs need to have their Volume IDs set to the values in the table above.
+
+Having done the above, the ten (10) new CDs should faithfully duplicate HCRF CDs and so will work with existing ARCS and Seafarer compatible equipment.
+
+
+SAMPLE CHART PERMITS
+====================
+
+Because the test data set is encrypted, systems will need to have a suitable set of chart permits to allow the data to be used.  These are contained in the eleventh directory, the 'Permit' directory.
+
+There are two (2) files in the permits directory, 'gb.lcn' (licence) and 'gb.ncp' (chart permits). These files should be copied to a floppy disk for use during tests.
+
+The chart permits are made to operate with the generic 'A1' test manufacturer codes as supplied to all manufacturers of ARCS and Seafarer compatable equipment.  Consequently, all manufacturers should be able to use these permits for their own tests.
+
+For the actual Type Approval Tests, manufacturers may wish to use their own manufacturer codes.  In these cases, suitable codes will need to be provided.  To obtain system specific chart permits please apply to:
+
+
+Digital Products Compliance Manager
+Business Development (Product Applications)
+UK Hydrographic Office
+Admiralty Way
+TAUNTON
+Somerset
+TA1 2DN
+UNITED KINGDOM
+Tel.:    +44 (0)1823 337900 Ext:3350, 4184 or 3305
+Fax.:    +44 (0)1823 251816
+e-mail:  dp_helpdesk@ukho.gov.uk
+
+
+DATA CONTENT
+============
+
+The test data set comprises a set of sixteen (16) charts, listed below, that allow all the tests specified in IEC 61174 Edition 3, Annex H to be performed. Exact details of these charts are given in Annex A of this document.
+
+  |-------|-------------------------------------------|----------|
+  |Chart  |                Title                      |Directory |
+  |-------|-------------------------------------------|----------|
+  |110    |Westkapell to Stellendam and Maasvlakte    | Rc1_old  |
+  |122    |Approaches to Europoort & Hoek van Holland | Rc1_old  |
+  |132    |Nieuwe Waterweg & Europoort (Part A & B)   | Rc1_old  |
+  |133    |Nieuwe Maas,Oude Maas,Noord,Rotterdam etc  | Rc1_old  |
+  |476    |Baie D'Aquin to Baie Aux Cayes & Ile Vache | Rc9      |
+  |1406   |Dover & Calais to OrfordNess & Scheveningen| Rc1_old  |
+  |1827   |Harbours on the South East Coast of England| Rc1_old  |
+  |1828   |Dover to North Foreland                    | Rc1_old  |
+  |1956   |Arquipelago dos Acores - Central Group     | Rc1_old  |
+  |2224   |Helsinki                                   | Rc3      |
+  |2675   |English Channel                            | Rc1_old &|
+  |       |                                           | Rc1_new  |
+  |4000   |The WORLD                                  | Wk33_00  |
+  |4011   |North Atlantic Ocean                       | Rc11     |
+  |4102   |The Western Approaches to the British Isles| Rc11     |
+  |4114   |Arquipelago dos Acores to Flemish Cap      | Rc11     |
+  |NL18118|Zeegat van Texel tot Eierlandsche Gat      | Wk49_00  |
+  |-------|-------------------------------------------|----------|
+
+NOTE: Chart 4000 can be loaded from either update directory Wk33_00 or Wk49_00 but chart NL18118 can only be loaded from Wk49_00.
+
+Some of these charts have been included so as to cover the different colour palettes (fathoms chart colours, blue depth contours etc) and to test the handling of different horizontal datums and projections.
+
+USE OF THE DATA WITHIN THE TYPE APPROVAL TESTS
+==============================================
+
+The following paragraphs detail the use of the test data set by reference to the paragraphs in Annex H of IEC 61174 edition 3.
+
+Where a test does not require specific RNC Test Data this is identified against the appropriate test with the reference "No specific test data".
+
+All postions and bearings quoted below are formatted in degrees, minutes and decimals of minutes, e.g. the position 51 50.75N equates to 51 degrees 50.75 minutes North and the bearing 316 4.9188 equates to 316 degrees 4.9188 minutes.
+
+
+H.17 Methods of Testing and Required Test Results
+=================================================
+H.17.1 Preparation
+------------------
+H.17.1.1 Required Test Items
+----------------------------
+This data set is for the Admiralty Raster Chart Service (ARCS) as provided by UKHO and the Royal Australian Navy Hydrographic Service's Seafarer service.
+
+Colours
+-------
+   |-------|--------|-----------------------------------------------|
+   |Charts |Test Dir| Colour Palettes                               |
+   |-------|--------|-----------------------------------------------|
+   |110    |Rc1_old|Standard metric colour palette                  |
+   |476    |Rc9_test|Standard fathoms colour palette                |
+   |2224   |Rc3_test|Metric colour palette with blue depth contours |
+   |4000   |Wk33_00 |Metric colour palette with ice tint            |
+   |NL18118|Wk49_00 |Coloured light sectors - example in position:  |
+   |       |        |GYR sectored light at 52 52.86N, 4 42.87E      |
+   |-------|--------|-----------------------------------------------|
+Format supported
+----------------
+This data set contains RNCs in the HCRF format.
+
+H.17.2 Initial Data Tests
+-------------------------
+H.17.2.1 RNC (H3.11/H17.4.2)
+----------------------------
+a) Any RNC.
+b) Any RNC. See Annex B at the end of this document for an explanation of how to view the edition number and/or date of an RNC. These values can be confirmed by cross referencing this data with the details of each RNC in Annex A.
+
+HCRF RNCs do not allow for an edition number in the header information but it can be viewed on the displayed chart image, where applicable, e.g.chart 1828.
+
+c) No specific test data.
+d) No specific test data.
+e) No specific test data.
+f) No specific test data.
+
+H.17.2.2 Datum
+----------------
+a) All information relating to the various horizontal datums utilised in the test data are contained in Annex A of this document.
+
+b) Load chart 2675 (Rc1_old) and centre on Tidal Diamond 'A' in position 49 34.23N, 6 40.09W, bring up information on Tidal Stream Data for that area.
+   Load chart 2675 (Rc1_old) and centre on the 'OFF CASQUETS TSS' in position 49 56.70N, 2 37.70W, bring up the ROUTEING Note relating to the TRAFFIC SEPARATION SCHEME OFF CASQUETS.
+
+c) Load chart 476 (Rc9) to confirm.
+
+H.17.3 Accuracy
+---------------
+a) Perform checks for large, medium and Small scale charts as follows:
+
+Large Scale Chart - Load chart 133 (Rc1_old) and obtain bearing and distance measurements using the following positions:
+
+   Start Point - Church symbol (51 53.25N, 4 36.72E) NE of Slikkerveer
+   End Point   - Church symbol (51 52.01N, 4 38.65E) SW of Alblasserdam
+
+   Expected Results:
+   |---------|------------|----------------|---------------|
+   |  Line   |   Length   |Forward Azimuth |Reverse Azimuth|
+   |  Type   |  (Metres)  | (ddd mm.mmmm)  | (ddd mm.mmmm) |
+   |---------|------------|----------------|---------------|
+   |Geodesic |  3193.040  |  136 3.4005    |  316 4.9188   |
+   |Loxodrome|  3193.040  |  136 4.1598    |  316 4.1598   |
+   |---------|------------|----------------|---------------|
+
+Medium Scale Chart - Load chart 2675 (Rc1_old) and obtain bearing and distance measurements using the following positions:
+
+   Start Point - Beachy Head Light (50 44.06N, 00 14.55E)
+   End Point   - Pointe du Haut-Banc Light (50 23.93N, 1 33.60E)
+
+   Expected Results:
+   |---------|------------|----------------|---------------|
+   |  Line   |   Length   |Forward Azimuth |Reverse Azimuth|
+   |  Type   |  (Metres)  | (ddd mm.mmmm)  | (ddd mm.mmmm) |
+   |---------|------------|----------------|---------------|
+   |Geodesic | 100517.346 |  111 16.9819   |  292 18.0385  |
+   |Loxodrome| 100518.667 |  111 47.5708   |  291 47.5708  |
+   |---------|------------|----------------|---------------|
+
+Small Scale Chart - Load chart 4011 (Rc11) and obtain bearing and distance measurements using the following positions:
+
+   Start Point - Skerryvore Light (56 18.21N, 7 09.33W)
+   End Point   - Helgoland Light (54 10.75N, 7 50.74E)
+
+   Expected Results:
+   |---------|------------|----------------|---------------|
+   |  Line   |   Length   |Forward Azimuth |Reverse Azimuth|
+   |  Type   |  (Metres)  | (ddd mm.mmmm)  | (ddd mm.mmmm) |
+   |---------|------------|----------------|---------------|
+   |Geodesic | 980961.610 |  097 40.0693   |  290 01.0339  |
+   |Loxodrome| 982859.689 |  103 55.4289   |  283 55.4289  |
+   |---------|------------|----------------|---------------|
+
+b) Use Test Data quoted in Annex J, Scenario 1 of IEC 61174 edition 2. The following charts can be used to plot this scenario:
+   |------|-------|------------------------|------------|-------------|
+   |Chart |  Dir  | Title                  | Scale      | Horiz Datum |
+   |------|-------|------------------------|------------|-------------|
+   |4011  |Rc11   | North Atlantic Ocean   | 1:10000000 | Undetermined|
+   |2675  |Rc1_old| English Channel        | 1:500000   | OSGB(1936)  |
+   |1406  |Rc1_old| Dover - Scheveningen   | 1:250000   | ED(1950)    |
+   |122   |Rc1_old| Approaches to Europoort| 1:50000    | WGS(1984)   |
+   |------|-------|------------------------|------------|-------------|
+
+H.17.4 Visual requirements
+--------------------------
+H.17.4.1 Visual display
+-----------------------
+a) It is recommended that test houses contact UKHO to obtain ARCS chart permits and paper chart for this test.  This will ensure that the two are in agreement. These can be supplied on request.
+b) No specific test data.
+c) No specific test data.
+d) No specific test data.
+
+H.17.4.2 Units and legends
+--------------------------
+Details of Units and Legends for each chart used in these tests are contained in Annex A of this document.
+
+H.17.4.3 Colour tables
+----------------------
+No specific test data.  However, the following list of charts will allow all different pallette types to be tested:
+   |-------|--------|----------------------------------------------|
+   |Charts |Test Dir| Colour Palettes                              |
+   |-------|--------|----------------------------------------------|
+   |110    |Rc1_old |Standard metric colour palette                |
+   |476    |Rc9     |Standard fathoms colour palette               |
+   |2224   |Rc3     |Metric colour palette with blue depth contours|
+   |4000   |Wk33_00 |Metric colour palette with ice tint           |
+   |NL18118|Wk49_00 |Coloured light sectors - example in position: |
+   |       |        |GYR sectored light at 52 52.86N, 4 42.87E     |
+   |-------|--------|----------------------------------------------|
+
+H.17.4.4 Display characteristics
+--------------------------------
+No specific test data.
+
+H.17.5 Functional requirements
+------------------------------
+Load chart 1827 (Rc1_old) and find initial position on Plan C, Ramsgate (1:5000) in Ramsgate New Port Turning Basin close to the eastern end of RoRo Terminal 2 in position 51 19.58N, 1 24.91E (approx).
+
+H.17.5.1 Additional display functions
+-------------------------------------
+a) No specific test data.
+b) No specific test data.
+c) No specific test data.
+d) No specific test data.
+e) No specific test data.
+f) Any RNC.
+
+H.17.5.2 Scale and navigation purpose
+-------------------------------------
+a) No specific test data.
+b) No specific test data.
+c) Charts 1827 (Rc1_old) and 1828 (Rc1_old) cover Ramsgate New Port at three scales 1:5000, 1:12500 and 1:37500. With the ship stationed at the position quoted in H.17.5 above check that when using 1828 (1:37500) the software points to 1827 being a larger scale version, then on 1827 (1:12500) check that that the software points to the larger scale plan at 1:5000.
+
+H.17.5.3 Mode and orientation
+-----------------------------
+a) Load chart 133 (Rc1_old), Part A, Rotterdam to Dorrecht, plan is orientated east up (north to left).
+b) No specific test data.
+c) No specific test data.
+
+H.17.5.4 Points, lines and areas
+--------------------------------
+No specific test data.
+
+H.17.5.5 Navigation related functions
+-------------------------------------
+No specific test data.
+
+H.17.5.6 Position integration
+-----------------------------
+a) Values for charts with a known WGS84 shift are contained in Annex A of this document.
+
+Note that shift values are in minutes and should be added or subtracted to WGS84 positions, as appropriate, to obtain local chart datum. Where the N/S shift is positive, the WGS84 graticule will be northwards of the local chart datum graticule. Where the E/W shift is positive, the WGS84 graticule will be eastward of the local chart datum graticule.
+  
+b) As above.
+c) No specific test data.
+d) No specific test data.
+e) No specific test data.
+f) No specific test data.
+g) No specific test data.
+
+H.17.5.7 Radar plotting information
+-----------------------------------
+a) No specific test data.
+b) No specific test data.
+c) No specific test data.
+d) No specific test data.
+e) No specific test data.
+f) No specific test data.
+g) No specific test data.
+
+H.17.5.8 Loading of corrupted data
+----------------------------------
+a) Load, or attempt to load, 110 from the Rc1_cor directory.
+b) With Rc1_old loaded, load, or attempt to load, the update for chart 2675 from the Wk33_cor directory.
+
+H.17.5.9 Automatic Updates
+--------------------------
+H.17.5.9.1 Receipt - installation and application
+-------------------------------------------------
+a) No specific test data.
+b) Load charts and update them from Wk33_00 directory. Update the same harts from the Wk49_00 directory.
+c) Not applicable as ARCS data is only provided by the UKHO, however, conformation can be obtained by looking in the header file of the chart.hdr file, see Annex B.
+d) ARCS updates are cumulative. N/A.
+e) Load chart 2675 (English Channel) from Rc1_old (Issue Date: 20 July 2000) and apply update from the Wk10_01 directory. An error should be displayed similar to the one below:
+
+   |----------------------------------------------------|
+   |"ARCS03-Chart 2675, update information relates to a |
+   |newer version of the chart. Please load the chart CD|
+   |that contains 2675 with an issue date of 08-02-2001"|
+   |----------------------------------------------------|
+
+f) Load chart 2675 (English Channel) from Rc1_new (Issue Date: 8 February 2001) and apply update from the Wk49_00 directory. An error message should be displayed similar to the one below:
+
+   |----------------------------------------------------------|
+   |"ARCS04-Chart 2675. The chart data already incorporates   |
+   |this update information. Please load the latest update CD"|
+   |----------------------------------------------------------|
+
+H.17.5.9.2 Display - show and verify
+------------------------------------
+a) Load test data, as required, and apply update from the Wk33_00 directory. Confirm that the Chart Edition and the Latest NM number displayed on the face of each chart agrees with the results listed for ARCS Weekly 33/00 for each chart in Annex A of this document. Repeat by applying updates from the Wk49_00 directory.
+
+b) Updates within ARCS are in the form of tiles.  The update includes the 'Small Corrections' label at the lower left-hand corner of the chart. Verify the updates have been applied correctly by checking the last small correction (NM number) against the appropriate chart and update in Annex A of this document.
+
+c) No specific test data.
+d) Not applicable. ARCS updates can not be accepted or rejected by the mariner.
+
+H.17.5.9.3 Records
+------------------
+a) See H.17.5.9.2 a) above.
+b) See H.17.5.9.2 a) above.
+c) Corrections applied are available outside lower left hand border as 'Small corrections'
+d) See H.17.5.9.2 a) above.
+e) No specific test data.
+f) No specific test data.
+
+H.17.5.10 Manual updates
+------------------------
+a) No specific test data.
+b) No specific test data.
+c) No specific test data.
+d) No specific test data.
+e) No specific test data.
+
+H.17.5.11 Self-tests of major functions
+---------------------------------------
+a) No specific test data.
+b) No specific test data.
+c) No specific test data.
+
+H.17.6 Operational requirement
+------------------------------
+H.17.6.1 Ergonomic principles
+-----------------------------
+No specific test data.
+
+H.17.6.2 Route planning
+-----------------------
+a).1  No specific test data.
+  .2  No specific test data.
+  .3  No specific test data.
+  .4  Plan a route into Europoort using charts 122 (1:50000) and 132 (1:25000) as follows: From position 51 59.67N, 3 28.12E on chart 122 (Rc1_old) eastward to 52 1.70N, 3 53.52E then to the entrance to Europoort (51 59.47N, 4 2.68E). Move to chart 132 (Rc1_old), Part A and continue to plan route from the entrance to Europoort (51 59.47N, 4 2.68E) to Berghaven (51 58.63N, 4 7.46E).
+
+  .5  Load chart 132 (Rc1_old) and plan a route from Berghaven (51 58.63N, 4 7.46E) on Part A of the chart, east along the Nieuwe Waterweg to the eastern edge of 132 Part A at 51 55.00N, 4 14.30E. From 51 55.00N, 4 14.30E on the western edge of chart 132 Part B continue south-east and east along the Nieuwe Waterweg into the Nieuwe Maas to the eastern edge of 132 Part B at 51 54.00N, 4 27.70E.
+
+Load chart 133 (Rc1_old) and continue planning the route on Part A (rotated plan) in position 51 54.00N, 4 27.70E. Continue the route along the Nieuwe Maas to position 51 53.35N, 4 37.17E, NE of Sllkkerveer. Then continue SE down the Noord to position 51 49.27N, 4 40.34E, the east to the easter edge of 133, Part A at 51 49.38N, 4 41.62E. Contine to plan the route on Part C (rotated plan) of chart 133 from 51 49.38N, 4 41.62E eastward along the Beneden Merwede to position 51 49.26N, 4 45.42E south of Sliedrecht.
+
+  .6  No specific test data.
+  .7  No specific test data.
+  .8  No specific test data.
+  .9  No specific test data.
+  .10 Use the track quoted in Annex J, Scenario 1 of IEC 61174 edition 2 from the middle of the Atlantic Ocean at Waypoint No.14 to the Entrance to Europoort at Waypoint 24. This test will use the following charts on differing horizontal datums:
+  |------|-------|------------------------|------------|-------------|
+  |Chart |  Dir  | Title                  | Scale      | Horiz Datum |
+  |------|-------|------------------------|------------|-------------|
+  |4011  |Rc11   | North Atlantic Ocean   | 1:10000000 | Undetermined|
+  |2675  |Rc1_old| English Channel        | 1:500000   | OSGB(1936)  |
+  |1406  |Rc1_old| Dover - Scheveningen   | 1:250000   | ED(1950)    |
+  |122   |Rc1_old| Approaches to Europoort| 1:50000    | WGS(1984)   |
+  |------|-------|------------------------|------------|-------------|
+
+b) No specific test data.
+c) .1 No specific test data.
+   .2 No specific test data.
+d) .1 No specific test data.
+   .2 No specific test data.
+   .3 No specific test data.
+   .4 No specific test data.
+   .5 No specific test data.
+e) No Test Data Available
+f) No specific test data.
+g) No specific test data
+
+H.17.6.3 Route monitoring
+-------------------------
+a) .1 No specific test data.
+   .2 No specific test data.
+   .3 No specific test data.
+   .4 No specific test data.
+   .5 No specific test data.
+   .6 No specific test data.
+   .7 No specific test data.
+b) No specific test data.
+c) .1 No specific test data.
+   .2 No specific test data.
+   .3 No specific test data.
+d) On chart 1827 (Rc1_old) Plan A (1:12500) create a mariner edited area feature enclosed by the following geographical positions:
+
+   |--------------------|
+   |51 19.30N, 1 26.50E;|
+   |51 19.70N, 1 26.50E;|
+   |51 19.70N, 1 27.00E;|
+   |51 19.30N, 1 27.00E;|
+   |--------------------|
+
+   Simulate a course across this feature.
+   
+e) On chart 1828 (1:37500) simulate crossing over the mariner edited area feature created at d) above.
+f) .1 Simulate ownship movement using charts 110 (1:75000) and 122 (1:50000) starting at position 1 in the table below:
+
+   |---|-------------------|---------|
+   |Mo.|     Position      | Charts  |
+   |---|-------------------|---------|
+   | 1 |51 52.60N, 2 57.40E|110      |
+   | 2 |51 54.46N, 3 11.46E|110      |
+   | 3 |51 57.57N, 3 36.40E|110 & 122|
+   | 4 |52 01.30N, 3 55.16E|122      |
+   |---|-------------------|---------|
+
+   .2 From the table above at f).1 set own ship position at Position No.1 on chart 110 and display the area of Position No.4 on chart 122.
+   .3 No specific test data.
+   .4 No specific test data.
+   .5 No specific test data.
+   .6 No specific test data.
+   .7 No specific test data.
+g) No specific test data.
+h) No specific test data.
+i) No specific test data.
+
+H.17.6.4 Twelve-hour log
+------------------------
+a) No specific test data.
+b) No specific test data.
+
+H.17.6.5 Voyage record
+----------------------
+a) No specific test data.
+b) No specific test data.
+
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ANNEX A - THE TEST DATA
+=======================
+
+Listed below are details of the charts used in the RNC Test data set. Most of the information contained below, such as dates and NM numbers, has been taken from the displayed chart according to the status of that chart. The only exception is chart 476 on RC 9, where the sounding datum and horizontal datum have been obtained from the stored meta data.
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |110                                        |
+|Title (Scale)       |Westkapelle to Stellendam and Maasvlakte   |
+|                    |(1:75000)                                  |
+|                    |Plan A Noordland-Roompotsluis (1:40000)    |
+|                    |Plan B Slijkgat to Stellendam (1:50000)    |
+|Units of Depth      |Metres                                     |
+|Units of Heights    |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Mean Sea Level (MSL)                       |
+|Sounding Datum      |Approximately Lowest Astronomical Tide     |
+|Horizontal Datum    |European Datum (1950)                      |
+|Shift to WGS84      |0.05'N, 0.08'E.                            |
+|Source Data Diagram |Yes                                        |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |10 May 1996 (BaZ No.VI-2000)               |
+|Latest NM           |2570/2000                                  |
+|Area Disc (Edition) |RC1 (20 July 2000)                         |
+|Test Data Directory |Rc1_old                                    |
+|ARCS Weekly 33/00   |Chart Edition:10 May 1999(BaZ No.VIII-2000)|
+|                    |Latest NM:3092/2000                        |
+|ARCS Weekly 49/00   |Chart Edition:31 Aug 2000(BaZ No.XI-2000)  |
+|                    |Latest NM:4259/2000                        |
+|Remarks             |Example of standard metric colour palette  |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |122                                        |
+|Title (Scale)       |Approaches to Europoort and Hoek van       |
+|                    |Holland (1:50000)                          |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Heights are above Mean Sea Level.          |
+|Sounding Datum      |Approximately LAT                          |
+|Horizontal Datum    |European Datum (1950)                      |
+|Shift to WGS84      |0.05'N, 0.08E.                             |
+|Source Data Diagram |Yes                                        |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |5 April 1996                               |
+|Latest NM           |2658/2000                                  |
+|Area Disc (Edition) |RC1 (20 July 2000)                         |
+|Test Data Directory |Rc1_old                                    |
+|ARCS Weekly 33/00   |Latest NM:3092/2000                        |
+|ARCS Weekly 49/00   |Chart Edition:31 Aug 2000 (BaZ No.XI-2000) |
+|                    |Latest NM:4542/2000                        |
+|Remarks             |                                           |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |132                                        |
+|Title (Scale)       |Nieuwe Waterweg and Eurpoort (Part A & B)  |
+|                    |(1:25000)                                  |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Heights above Mean Sea Level               |
+|Sounding Datum      |Approximately LAT (MLLWS & LW upriver)     |
+|Horizontal Datum    |European Datum (1950)                      |
+|Shift to WGS84      |0.05'N, 0.08'E.                            |
+|Source Data Diagram |Yes                                        |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |30 December 1999 (BaZ No.VII-2000)         |
+|Latest NM           |2769/2000                                  |
+|Area Disc (Edition) |RC1 (20 July 2000)                         |
+|Test Data Directory |Rc1_old                                    |
+|ARCS Weekly 33/00   |Chart Edition:30 Dec 1999 (BaZ No.VII-2000)|
+|                    |Latest NM:2769/2000                        |
+|ARCS Weekly 49/00   |Chart Edition:31 Aug 2000 (BaZ No.Blank)   |
+|                    |Latest NM:None                             |
+|Remarks             |                                           |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |133                                        |
+|Title (Scale)       |Part A Rotterdam to Dordrect (1:25000)     |
+|                    |Part B Dordrecht to Moerdijk (1:25000)     |
+|                    |Part C Continuation Beneden Merwede        |
+|                    |(1:25000)                                  |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Drying Heights - Chart Datum               |
+|                    |Other Heights - Mean Sea Level             |
+|                    |Vertical Clearances - MHWS                 |
+|Sounding Datum      |Approximately LAT                          |
+|Horizontal Datum    |European Datum (1950)                      |
+|Shift to WGS84      |0.05'N, 0.08'E.                            |
+|Source Data Diagram |Yes                                        |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |30 December 1999 (BaZ No.VI-2000)          |
+|Latest NM           |2569/2000                                  |
+|Area Disc (Edition) |RC1 (20 July 2000)                         |
+|Test Data Directory |Rc1_old                                    |
+|ARCS Weekly 33/00   |Latest NM:2569/2000                        |
+|ARCS Weekly 49/00   |Chart Edition:31 Aug 2000 (BaZ No.Blank)   |
+|                    |Latest NM:None                             |
+|Remarks             |Two of the Plans are rotated by 90 degrees |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |476                                        |
+|Title (Scale)       |Main Sheet: Baie D'Aquin to Baie Aux Cayes |
+|                    |inc. Ile Vache (1:50000), Plan: Baie Jacmel|
+|                    |(1:37500)                                  |
+|Units of Depth      |Fathoms and Feet                           |
+|Units of Height     |Feet                                       |
+|Projection          |Gnomonic (Transverse Mercator)             |
+|Vertical Datum      |Mean High Water Springs (MHWS)             |
+|Sounding Datum      |Unspecified                                |
+|Horizontal Datum    |Undetermined                               |
+|Shift to WGS84      |No WGE shift available.                    |
+|Source Data Diagram |No                                         |
+|Magnetic Variation  |Main Sheet stated on Compasses             |
+|                    |Rosesand in plan title                     |
+|Chart Edition Date  |12 November 1954                           |
+|Latest NM           |4757/1999                                  |
+|Area Disc (Edition) |RC9 (23 November 2000)                     |
+|Test Data Directory |Rc9                                        |
+|Remarks             |Example of Fathoms colour palette          |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |1406                                       |
+|Title (Scale)       |Dover and Calais to Orford Ness and        |
+|                    |Scheveningen (1:250000)                    |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Mean High Water Springs (MHWS)             |
+|Sounding Datum      |Approximately Lowest Astronomical Tide     |
+|Horizontal Datum    |European (1950)                            |
+|Shift to WGS84      |0.05N, 0.08E                               |
+|Source Data Diagram |No (Reference should be made to larger     |
+|                    |scale charts for the source information    |
+|Magnetic Variation  |Main Sheet stated on Compass Roses         |
+|Chart Edition Date  |6 July 2000 (Edition 3)                    |
+|Latest NM           |2847/2000                                  |
+|Area Disc (Edition) |RC1 (20 July 2000)                         |
+|Test Data Directory |Rc1_old                                    |
+|ARCS Weekly 33/00   |Latest NM:2962/2000                        |
+|ARCS Weekly 49/00   |Latest NM:4758/2000                        |
+|Remarks             |                                           |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |1827                                       |
+|Title (Scale)       |Plan A: Approaches to Ramsgate (1:12500)   |
+|                    |Plan B: Pegwell Bay & River Stour (1:12500)|
+|                    |Plan C: Ramsgate (1:5000)                  |
+|                    |Plan D: Broadstairs (1:5000)               |
+|                    |Plan E: Margate (1:7500)                   |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Transverse Mercator                        |
+|Vertical Datum      |Mean High Water Springs                    |
+|Sounding Datum      |Approximately LAT                          |
+|Horizontal Datum    |Ordnance Survey of Great Britain           |
+|Shift to WGS84      |0.03'S, 0.10'E                             |
+|Source Data Diagram |Yes                                        |
+|Magnetic Variation  |Compass Roses on large plans and title on  |
+|                    |smaller plans                              |
+|Chart Edition Date  |28 October 1999                            |
+|Latest NM           |482/2000                                   |
+|Area Disc (Edition) |RC1 (20 July 2000)                         |
+|Test Data Directory |Rc1_old                                    |
+|ARCS Weekly 33/00   |Latest NM:3079/2000                        |
+|ARCS Weekly 49/00   |Latest NM:4761/2000                        |
+|Remarks             |                                           |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |1828                                       |
+|Title (Scale)       |Main Sheet:Dover to North Foreland(1:37500)|
+|                    |Plan: Ramsgate (1:5000)                    |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Transverse Mercator                        |
+|Vertical Datum      |Mean High Water Springs                    |
+|Sounding Datum      |Approximately LAT                          |
+|Horizontal Datum    |Ordnance Survey of Great Britain           |
+|Shift to WGS84      |0.03'S, 0.10'E                             |
+|Source Data Diagram |Yes                                        |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |25 March 1999(7th Edition)                 |
+|Latest NM           |2856/2000                                  |
+|Area Disc (Edition) |RC1 (20 July 2000)                         |
+|Test Data Directory |Rc1_old                                    |
+|ARCS Weekly 33/00   |Latest NM:2856/2000                        |
+|ARCS Weekly 49/00   |Latest NM:4761/2000                        |
+|Remarks             |                                           |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |1956                                       |
+|Title (Scale)       |Arquipelago dos Acores - Central Group     |
+|                    |(1:175000)                                 |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Mean High Water Springs                    |
+|Sounding Datum      |Approximately LAT                          |
+|Horizontal Datum    |World Geodetic system 1984 (WGS84)         |
+|Shift to WGS84      |No shift required                          |
+|Source Data Diagram |No - Information contained in the Title    |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |18 November 1999                           |
+|Latest NM           |1492/2000                                  |
+|Area Disc (Edition) |RC1 (20 July 2000)                         |
+|Test Data Directory |Rc1_old                                    |
+|ARCS Weekly 33/00   |Latest NM:1492/2000                        |
+|ARCS Weekly 49/00   |Latest NM:4450/2000                        |
+|Remarks             |Example of a chart where positions are     |
+|                    |referred to WGS84                          |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |2224                                       |
+|Title (Scale)       |Helsinki (1:20000)                         |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Transverse Mercator                        |
+|Vertical Datum      |Mean High Water Springs                    |
+|Sounding Datum      |Approximately Mean sea Level               |
+|Horizontal Datum    |Finnish Datum                              |
+|Shift to WGS84      |0.01'S, 0.19E                              |
+|Source Data Diagram |No - Information contained in the Title    |
+|Magnetic Variation  |Stated on Compass roses                    |
+|Chart Edition Date  |10 December 1998                           |
+|Latest NM           |2338/2000                                  |
+|Area Disc (Edition) |RC3 (22 June 2000)                         |
+|Test Data Directory |Rc3                                        |
+|ARCS Weekly 33/00   |Latest NM:2338/2000                        |
+|ARCS Weekly 49/00   |Latest NM:2338/2000                        |
+|Remarks             |Example of a metric colour palette with    |
+|                    |blue contour lines                         |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |2675                                       |
+|Title (Scale)       |English Channel (1:500000)                 |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Mean High Water Springs                    |
+|Sounding Datum      |Approximately LAT                          |
+|Horizontal Datum    |Ordnance Survey of Great Britain           |
+|Shift to WGS84      |0.00N/S, 0.10E                             |
+|Source Data Diagram |Yes                                        |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |11 November 1999                           |
+|Area Disc (Edition) |RC1 (20 July 2000 & 08 February 2001)      |
+|Latest NM (20/07/00)|2773/2000                                  |
+|Latest NM (08/02/01)|481/2001                                   |
+|Test Data Directory |Rc1_old & Rc1_new                          |
+|ARCS Weekly 33/00   |Latest NM:2991/2000                        |
+|ARCS Weekly 49/00   |Latest NM:4432/2000                        |
+|ARCS Weekly 10/01   |Latest NM:999/2001                         |
+|Remarks:            |Used to create ARCS/HCRF 03 & 04 errors    |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |4000                                       |
+|Title (Scale)       |THE WORLD (1:45000000 at the Equator)      |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Not Specified                              |
+|Sounding Datum      |Not Specified                              |
+|Horizontal Datum    |WGS84                                      |
+|Shift to WGS84      |No Shift                                   |
+|Source Data Diagram |No but there is a diagram of larger scale  |
+|                    |charts                                     |
+|Magnetic Variation  |No                                         |
+|Chart Edition Date  |Publication Date 7 July 1995               |
+|Latest NM           |None                                       |
+|Area Disc (Edition) |Loaded from week 33/00 UPDATE disc         |
+|Test Data Directory |Wk33_00                                    |
+|ARCS Weekly 33/00   |Chart 4000 is not updated                  |
+|ARCS Weekly 49/00   |As above                                   |
+|Remarks             |Example of metric colour palette with ice  |
+|                    |tint                                       |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |4011                                       |
+|Title (Scale)       |North Atlantic Ocean (1:10000000)          |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Unspecified                                |
+|Sounding Datum      |Unspecified                                |
+|Horizontal Datum    |Undetermined                               |
+|Shift to WGS84      |No WGE shift available                     |
+|Source Data Diagram |No but there is a diagram of larger scale  |
+|                    |charts                                     |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |5 June 1997                                |
+|Latest NM           |2165/1999                                  |
+|Area Disc (Edition) |RC11 (8 July 1999)                         |
+|Test Data Directory |Rc11                                       |
+|ARCS Weekly 33/00   |Latest NM:2993/2000                        |
+|ARCS Weekly 49/00   |Latest NM:4327/2000                        |
+|Remarks:            |                                           |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |4102                                       |
+|Title (Scale)       |The Western Approaches to the British Isles|
+|                    |(1:3500000)                                |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Unspecified                                |
+|Sounding Datum      |Unspecified                                |
+|Horizontal Datum    |Undetermined                               |
+|Shift to WGS84      |No WGE shift available                     |
+|Source Data Diagram |No                                         |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |22 May 1997                                |
+|Latest NM           |2165/1999                                  |
+|Area Disc (Edition) |RC11 (8 July 1999)                         |
+|Test Data Directory |Rc11                                       |
+|ARCS Weekly 33/00   |Latest NM:872/2000                         |
+|ARCS Weekly 49/00   |Latest NM:4554/2000                        |
+|Remarks             |                                           |
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |4114                                       |
+|Title (Scale)       |Arquipelago dos Acores to Flemish Cap      |
+|                    |(1:3500000)                                |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Unspecified                                |
+|Sounding Datum      |Unspecified                                |
+|Horizontal Datum    |Undetermined                               |
+|Shift to WGS84      |                                           |
+|Source Data Diagram |No                                         |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |22 November 1996                           |
+|Latest NM           |1104/1998                                  |
+|Area Disc (Edition) |RC11 (8 July 1999)                         |
+|Test Data Directory |Rc11                                       |
+|ARCS Weekly 33/00   |Latest NM:2993/2000                        |
+|ARCS Weekly 49/00   |Latest NM:2993/2000                        |
+|Remarks:            |                                           |	
+|--------------------|-------------------------------------------|
+
+|--------------------|-------------------------------------------|
+|BA Chart Number     |NL18118                                    |
+|Title (Scale)       |Zeegat van Texel tot Eierlandsche Gat      |
+|                    |(100000)                                   |
+|Units of Depth      |Metres                                     |
+|Units of Height     |Metres                                     |
+|Projection          |Mercator                                   |
+|Vertical Datum      |Mean Sea Level                             |
+|Sounding Datum      |Mean Lower Low Water Springs               |
+|Horizontal Datum    |European Datum (1950)                      |
+|Shift to WGS84      |0.046'N,0.081'E                            |
+|Source Data Diagram |No                                         |
+|Magnetic Variation  |Stated on Compass Roses                    |
+|Chart Edition Date  |2000                                       |
+|Latest NM:          |None                                       |
+|Area Disc (Edition) |Loaded from week 49/00 UPDATE disc         |
+|Test Data Directory |Wk49_00                                    |
+|ARCS Weekly 49/00   |Nothing Further                            |
+|Remarks             |Example of metric colour palette with      |
+|                    |coloured light sectors                     |
+|--------------------|-------------------------------------------|
+
+
+
+
+
+
+
+
+
+
+ANNEX B - THE CHART HEADER FILE
+===============================
+
+Annex B has been included to fully explain where information relating to an RNC, e.g. Edition Date, Latest NM, etc. can be found and/or accessed. Further details can be obtained with reference to UKHO publication NP 760(HCRF Raster Format Version 2.00), Section 4.4.
+
+Information regarding the displayed chart image can be obtained by accessing the header file (<ChartID>.HDR). The header file for a particular chart can be found by accessing the appropriate Area Disc (RC) and navigating the directory structure until the <ChartID>.hdr is reached. The example below displays the location of the chart 2675 header file in relation to the Rc1 root directory.
+
+    Rc1--|
+         |- Chartcat
+         |- Misc
+         |- Raschart-|
+                     |- 026-|
+                            |- 2675-|
+                                    |-2675.hdr
+
+Below is the Header file (<ChartID>.HDR) for chart 2675 as it would be displayed in Wordpad/Notepad with Word Wrap on:
+
+   HDRGB2675    20000720199911110002.0003       
+   200002773English Channel
+   1070 GB  20012000450280805000000000000.00
+   No special remarks for this chart.
+   222000210006003  
+
+
+Below is the same header file edited to highlight the principle records:
+
+     Issuing             Edition Date
+    Authority             (YYYYMMDD)
+       |                      |
+       |      File Issue Date | HCRF Version
+       |         (YYYYMMDD)   |       |
+       |           __|___  ___|__    _|_
+       |          |      ||      |  |   |
+   HDR GB 2675    20000720199911110002.0003       
+   200002773English Channel 1070 GB  20012000450280805000000000000.00
+   |_______| No special remarks for this chart.    
+       |     222000210006003                       
+       |
+    Latest NM
+   (YYYYNNNNN)
+
+Where Y = Year
+      M = Month
+      D = Day
+      N = Number
+
+The "File Issue Date" contains the date on which the current
+version of the file was published.
+
+The "Edition date" field contains the date of publication of
+the current edition of the chart, as printed on the face of
+the original paper chart.
+
+The "Issuing Authority" for ARCS charts is the UKHO, this is signified by the two character code "GB".

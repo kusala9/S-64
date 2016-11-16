@@ -1,0 +1,4 @@
+WRECKS
+
+Within this area, wrecks whose depths are known to be greater than 28 metres
+are omitted unless they are known to stand at least 5 metres from the seabed.

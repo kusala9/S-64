@@ -1,0 +1,86 @@
+1882(P)/01    ELECTRONIC NAVIGATIONAL CHARTS - Availability of UKHO produced 
+ENCs; Cautionary 
+              guidance on the use and limitations of ENCs and associated ECDIS 
+systems
+
+1.    The UKHO has developed a reliable system for the production of Electronic 
+Navigational Charts (ENC) and carried
+      out a lengthy period of sea trials. ENCs are vector electronic charts that 
+conform to International Hydrographic
+      Organization specifications. They are compiled from a database of 
+individual items (`objects') of digitised chart
+      data which can be displayed as a seamless chart. When used in an 
+electronic navigation system, the data can then
+      be re-assembled to display either the entire chart image or a user-
+selected combination of data.  ENCs are
+      intelligent in that systems using them can be programmed to give warning 
+of impending danger in relation to the
+      vessel's position and movement.
+2.    UKHO produced ENCs are now available for sale as part of the PRIMAR 
+Official ENC Service which provides
+      a consistent, uniform ENC service on behalf of a group of participating 
+National Hydrographic Offices in Europe
+      (currently Denmark, Finland, France, Germany, Netherlands, Norway, Poland, 
+Portugal, Spain, Sweden and UK).
+      PRIMAR is in the process of developing a world-wide network of 
+distributors. For further information visit the
+      PRIMAR web site at www.primar.org or e-mail info@primar.org.
+3.    Updates for UKHO ENCs are issued weekly in line with UKHO policy for all 
+its navigational charts, paper and
+      electronic. Updates are issued for all Permanent Chart-Correcting and 
+Preliminary Notices to Mariners. However,
+      it may not always be possible to issue updates for Temporary Notices to 
+Mariners, especially those that cover large
+      geographical areas and are not chart specific. Mariners should consult the 
+paper weekly Notices to Mariners booklet
+      for details of these Notices to Mariners. 
+4.    Attention is drawn to the statement in Chapter 1, sections 1.1 and 1.2 of 
+The Mariners Handbook (NP100)
+      concerning the use of navigational information provided by the UKHO. This 
+includes the following caution which
+      applies to all charts, paper and electronic:
+        While the UKHO has made all reasonable efforts to ensure the data 
+supplied is accurate, it should be
+        appreciated that the data may not always be complete, up to date or 
+positioned to modern surveying standards
+        and therefore no warranty can be given as to its accuracy. The mariner 
+must be the final judge of the reliance
+        he places on the information given, bearing in mind his particular 
+circumstances, the needs of safe and prudent
+        navigation, local pilotage guidance and the judicious use of available 
+navigational aids.
+5.    Considerable progress has been made in the development of Electronic Chart 
+Display and Information Systems
+      (ECDIS), the navigational systems which make use of ENC data. Many are 
+being developed and a number have
+      now achieved type approval. Mariners should be aware of the significant 
+changes in navigational practice required
+      by the introduction of ECDIS and of the need to manage these changes in a 
+careful and prudent manner. It should
+      also be noted that the appearance and content of the data displayed in 
+electronic charts may differ substantially
+      from the same or similar data in the paper chart form. The definition of 
+an ENC permits them to include information
+      contained in nautical publications. However, currently-available ENCs do 
+not contain such information
+      and mariners using ENCs must continue to use related Admiralty nautical 
+publications.
+6.    Because of the developing nature of ECDIS and because there is as yet only 
+limited ENC data availability, there
+      has so far been little experience of the practical, operational use of 
+ECDIS. Mariners must therefore be aware of
+      the user training requirement. They should satisfy themselves that their 
+ECDIS provides all the navigational
+      functionality that they will need and that they are familiar with the 
+operation of this functionality. For example,
+      some early ECDIS systems may be unable to display the cautionary notes 
+which appear on the paper chart and are
+      included in the ENC. Hence, care is required while experience is gained in 
+the practical use of ECDIS. Some
+      national maritime administrations have issued advice relating to the 
+introduction of ECDIS, and mariners should
+      ensure that they are aware of, and conversant with, that advice.
+7.    Former Notice 3051(P)/00 is cancelled.
+UK Hydrographic Office        (HA.403/011/133/01).
+
+

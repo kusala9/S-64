@@ -1,0 +1,67 @@
+2318(P)/99    MISCELLANEOUS - Dangerous and Non-dangerous wrecks - Depth 
+criteria
+
+1.  Mariners should be aware that many hydrographic offices, including the 
+United Kingdom Hydrographic Office, use different depth criteria for dangerous 
+and non-dangerous wrecks from those of the Chart Specifications of the 
+International Hydrographic Organization, but the chart symbols used are the 
+same. 
+2.  The depth criteria adopted for use in Admiralty charts have changed over the 
+years in response to the introduction of deeper-draught vessels and their safe 
+navigation.  Admiralty Chart 5011, Edition 2 - 1998 (Symbols and Abbreviations 
+used on Admiralty Charts), states the criteria in use for British Admiralty 
+charts:
+		
+
+    Dangerous wreck (INT1 symbol IK28),		Wreck, depth unknown, which is 
+considered dangerous to surface navigation		
+						On modern Admiralty charts (post 1968), with 
+the exception of those which have been produced initially by, or in co-operation 
+with, other nations, this symbol is used when the depth over the wreck is 
+thought to be 28 metres (15 fathoms) or less. For further details, see Note 
+below IK29. 
+
+    Non-dangerous wreck (INT1 symbol IK29),	Wreck, depth unknown, which is 
+not considered dangerous to surface navigation		
+						On modern Admiralty charts (post 1968), with 
+the exception of those which have been produced initially by, or in co-operation 
+with, other nations, this symbol is used when the depth over the wreck is 
+thought to be more than 28 metres (15 fathoms).  For further details, see Note 
+below.        
+
+  						Note: On Admiralty charts published before 
+1968, the depth criteria applied as follows:
+            					before 1960    		8 fathoms
+            					1960 to 1963    	10 fathoms
+            					1963 to 1968    	11 fathoms
+3.    Other hydrographic offices, from whose charts many Admiralty charts are 
+derived or adopted, use various criteria for dangerous and non-dangerous wrecks; 
+the depth used to distinguish  between dangerous and non-dangerous ranges 
+between 18 metres and 30 metres.
+      As a result, users of Admiralty charts should note that on some Admiralty 
+charts, based on information from hydrographic offices which use different 
+criteria, certain wrecks portrayed by symbol IK29 (insert symbol) may have 
+significantly less water over them than the more than 28 metres (15 fathoms) 
+indicated.
+      For example, on an Admiralty chart of French waters, where the wreck data 
+is taken from the French government charts, symbol IK29 (insert symbol) will 
+indicate that more than 20 metres of water is thought to exist.
+4.    Chart Specifications of the International Hydrographic Organization (MP-
+004 Edition 1998) state:
+	Specification 422.5	The term Dangerous wrecks is to be used (if 
+unavoidable) for wrecks having, or likely to have, less than 20 metres of water 
+over them in areas where such depths are dangerous to surface vessels capable of 
+navigating in the vicinity.  Where the depth is unknown, the symbol IK28 may be 
+used if no safe clearance depth can be estimated.
+	Specification 422.6     The term Non-dangerous wrecks is to be used (if 
+unavoidable) for wrecks having more than 20 metres of water over them.
+				The symbol IK29 shall be used in waters over 200 metres 
+deep, where a clearance depth cannot be indicated.  This term excluded foul 
+ground, which is frequently the remains of a wreck and is a hazard only for 
+anchoring or fishing.
+5.    Chart Specifications 422.5 and 422.6 are due to be reviewed this year by 
+the Chart Standardization Committee of the International Hydrographic 
+Organization.  When the results of this review are known, the criteria for 
+Admiralty charts will be re-assessed.
+
+UK Hydrographic Office        (HA.405/005/018/01).

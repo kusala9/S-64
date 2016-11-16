@@ -1,0 +1,7 @@
+ENTRY RESTRICTED
+
+All vessels over 150 metres in length navigating in this area will be given a 
+Moving Prohibited Zone of 1000 metres ahead and 100 metres either side. Vessels 
+under 20 metres in length will be prohibited from entering this Zone. See 
+Admiralty Sailing Directions for details.
+

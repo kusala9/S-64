@@ -1,0 +1,11 @@
+2658(P)/2007 ENGLAND - South West Coast - Widemouth Bay
+South-westwards - Submarine cable.
+
+Source: Alcatel Submarine Networks
+(SEP: 2007000034546 - 1).
+
+1. A submarine cable, GLO-1 segment 33b has been laid in
+the position shown from Widemouth Bay in England to the
+200m contour limit at Little Sole Bank.
+
+2. ENC cells will be updated when works are complete.

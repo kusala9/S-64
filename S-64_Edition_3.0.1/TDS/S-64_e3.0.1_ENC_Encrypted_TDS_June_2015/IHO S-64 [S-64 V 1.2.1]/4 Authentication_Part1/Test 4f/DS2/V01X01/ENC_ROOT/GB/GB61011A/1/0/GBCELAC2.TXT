@@ -1,0 +1,5 @@
+DATA ACCURACY
+
+Due to the age and quality of some of the source information, positions obtained
+from satellite navigation systems referred to WGS84 Datum may be more accurate
+than the charted detail.

@@ -1,0 +1,8 @@
+WRECKS
+
+In this area no wrecks are shown within the 10 metre contour. Only significant 
+wrecks are shown between the 10 metre and 30 metre contours. In other depth 
+areas, only those wrecks thought to stand more than 10 metres above the seabed 
+are shown. For full wreck information a more appropriate ENC usage band should 
+be consulted.
+

@@ -1,0 +1,4 @@
+HARBOUR APPROACH LIMIT
+
+Vessels movements within the Harbour Approach Limit are
+controlled by Port Control.

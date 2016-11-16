@@ -1,0 +1,9 @@
+GBWK48_07   20071129UPDATE    M01X01
+U1,'UKHO Week 48_07 UPDATE MEDIA 1 of 1 dated 29 NOV 2007','Test ENC Updating',
+M1;B1,20071004,'Base Exchange Set 1','Overview Cells',,
+M1;B2,20070510,'Base Exchange Set 2','General Cells',,
+M1;B3,20070510,'Base Exchange Set 3','Coastal Cells',,
+M2;B4,20070607,'Base Exchange Set 4','Approaches Cells',,
+M2;B5,20070607,'Base Exchange Set 5','Harbour Cells',,
+M2;B6,20070607,'Base Exchange Set 6','Berthing Cells',,
+M1;U1,20071129,'UKHO WK48_07 ENC Update','GB Cells',,
